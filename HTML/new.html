@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Page</title>
+    <style>
+        .left {
+            width: 20%;
+            background-color: lightcoral;
+            float: left;
+        }
+
+        .main {
+            width: 60%;
+            background-color: pink;
+            float: left;
+        }
+
+        .right {
+            width: 20%;
+            background-color: blanchedalmond;
+            float: left;
+        }
+
+        body {
+            background-color: aqua;
+        }
+
+        @media screen and (max-width:700px) {
+            .left, .right, .main {width:100%}
+            body {background-color: powderblue;}
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="left">
+            Left content
+        </div>
+        <div class="main">
+            Main content
+        </div>
+        <div class="right">
+            Right content
+        </div>
+    </div>
+</body>
+</html>
