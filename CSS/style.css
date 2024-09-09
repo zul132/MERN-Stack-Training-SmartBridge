@@ -1,0 +1,59 @@
+/* This is a comment in CSS */
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+/* Universal selector */
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center {
+    /* font-size: 3em; */
+    font-size: 20px;
+    text-align: center;
+    background-color: aqua;
+
+    /* CSS Math functions */
+    width: calc(100% - 300px); 
+    width: max(50%, 300px);
+}
+
+#demo {
+    color: #00ffff;
+    background-color: rgb(0, 0, 175);
+    border-style: solid;
+
+    /* CSS Box Model (margin,padding) */
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 5px;
+    margin: 5px;
+}
+
+/* Background properties */
+body {
+    background-image: url("https://img.freepik.com/free-vector/watercolor-oil-painting-background_52683-106457.jpg?t=st=1725856257~exp=1725859857~hmac=df3715402d8e14f5d47c7848d820ce4e641ba25d82594efc1a14ff260da9afaa&w=996");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/****
+ CSS Gradients
+
+body {
+    // By default linear-gradient is from Top to Bottom 
+    background-image: linear-gradient(to right, cyan, pink, red, blue, orange, green); 
+
+    // Other gradients are Radial gradient, Conic gradient 
+    background-image: conic-gradient(red, yellow);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+/****
