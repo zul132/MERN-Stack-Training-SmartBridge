@@ -1,0 +1,2 @@
+Hi this a write file
+Hi this an appended file
