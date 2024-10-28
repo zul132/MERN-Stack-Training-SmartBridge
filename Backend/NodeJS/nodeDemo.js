@@ -3,7 +3,7 @@
 // console.log(__filename)
 
 /*
-    CORE NODE MODULES (inbuilt modules)
+    CORE MODULES (inbuilt modules) in NodeJS
     1. os
     2. http
     3. fs (file system)
