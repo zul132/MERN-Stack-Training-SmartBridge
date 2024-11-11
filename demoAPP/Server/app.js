@@ -1,6 +1,6 @@
 const express = require('express')  // import express
 const mongoose = require('mongoose')    // import mongoose
-const userRouter = require('./controller/userController')
+const userRouter = require('./route/userRoutes')
 
 const app = express()   // instantiate express app
 const PORT = 5000   // Port number
@@ -13,8 +13,8 @@ mongoose.connect('mongodb://localhost:27017/nmdb')
 })
 
 // Middleware
-app.use(express.json());
-app.use(userRouter);
+app.use(express.json())
+app.use(userRouter)
 
 
 app.listen(PORT, ()=>{
